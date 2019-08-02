@@ -41,6 +41,8 @@
         echo '<h1 style = "color : yellow">' . $c . '</h1>';
     } elseif ($c < 20) {
         echo '<h1 style = "color : navy">' . $c . '</h1>';
+    } else {
+        echo "eror";
     }
   ?>
 
