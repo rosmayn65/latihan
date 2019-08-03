@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Pengulangan</title>
 </head>
 
 
@@ -12,13 +12,10 @@
 <body>
   <?php
     $a = 13;
-    $b = 2;
-    $c = $a + $b;
-
-    if ($c > 100) {
+    $b = 2; 100) {
         echo '<h1 style = "color:purple">' . $c . '</h1>';
     } elseif ($c < 95) {
-        echo '<h1 style = "color : pink">' . $c . '</h1>';
+        echo '<h1 style = "color : violet">' . $c . '</h1>';
     } elseif ($c < 90) {
         echo '<h1 style = "color : blue">' . $c . '</h1>';
     } elseif ($c < 85) {
